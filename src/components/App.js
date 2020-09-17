@@ -18,7 +18,7 @@ export default function App() {
   const data = useAsync(fetchData, []);
 
   if (data.loading) {
-    document.title = 'Counting potential earth HAZARDS…';
+    document.title = 'Counting potential earth HAZARDS… in progress';
 
     return (
       <p>

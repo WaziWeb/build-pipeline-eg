@@ -31885,7 +31885,7 @@ function App() {
   var data = (0, _reactAsyncHook.useAsync)(fetchData, []);
 
   if (data.loading) {
-    document.title = 'Counting potential earth HAZARDS…';
+    document.title = 'Counting potential earth HAZARDS… in progress';
     return /*#__PURE__*/_react.default.createElement("p", null, "Getting data from NASA right now to check whether something from space is going to hit us. One moment\u2026");
   }
 
